@@ -13,5 +13,20 @@ public class HelloWorld
 
         int substration= num2 - num1;
         Console.WriteLine ("Soubstration of 2 Numbers are: "+substration);
+
+        Console.WriteLine ("------------------------------------------");
+
+        int mult= num2 * num1;
+        Console.WriteLine ("multiplication of 2 Numbers are: "+mult);
+
+        Console.WriteLine ("------------------------------------------");
+
+        int div= num2 / num1;
+        Console.WriteLine ("division of 2 Numbers are: "+div);
+
+        Console.WriteLine ("------------------------------------------");
+
+        int mod = num2%num1;
+        Console.WriteLine ("division of 2 Numbers are: "+mod);
     }
 }
