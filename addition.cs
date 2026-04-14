@@ -6,7 +6,12 @@ public class HelloWorld
     {
         int num1= 10;
         int num2= 15;
-        int total=num1+num2;
-        Console.WriteLine (total);
+        int add=num1+num2;
+        Console.WriteLine ("Addition of 2 Numbers is: "+add);
+
+        Console.WriteLine ("------------------------------------------");
+
+        int substration= num2 - num1;
+        Console.WriteLine ("Soubstration of 2 Numbers are: "+substration);
     }
 }
