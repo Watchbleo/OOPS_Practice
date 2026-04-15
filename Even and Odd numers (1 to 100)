@@ -1,0 +1,33 @@
+using System;
+
+namespace NumberClassifier
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("--- Even and Odd Numbers from 1 to 100 ---");
+
+
+            Console.WriteLine("\nEVEN NUMBERS:");
+            for (int i = 1; i <= 100; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    Console.Write(i + " ");
+                }
+            }
+
+  
+            Console.WriteLine("\n\nODD NUMBERS:");
+            for (int i = 1; i <= 100; i++)
+            {
+                if (i % 2 != 0)
+                {
+                    Console.Write(i + " ");
+                }
+            }
+
+        }
+    }
+}
