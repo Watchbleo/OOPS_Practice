@@ -3,8 +3,8 @@ class Program
 {
    static void Main()
    {
-       Console.WriteLine("Prime Numbers between 1 and 100:");
-       for (int i = 2; i <= 100; i++)
+       Console.WriteLine("Prime Numbers between 1 and 200:");
+       for (int i = 2; i <= 200; i++)
        {
            bool isPrime = true;
            for (int j = 2; j <= Math.Sqrt(i); j++)
