@@ -7,17 +7,18 @@ class Program
     {
         try
         {
+            
             // Generate uppercase alphabet A-Z
-            char[] alphabet = Enumerable.Range('A', 26)
-                                        .Select(c => (char)c)
-                                        .ToArray();
+            //char[] alphabet = Enumerable.Range('A', 26)
+            //                            .Select(c => (char)c)
+            //                            .ToArray();
 
             // Generate numbers 1-100
             int[] numbers = Enumerable.Range(1, 100).ToArray();
-
+        
             // Display alphabet
-            Console.WriteLine("Alphabet (A-Z):");
-            Console.WriteLine(string.Join(" ", alphabet));
+           // Console.WriteLine("Alphabet (A-Z):");
+          //  Console.WriteLine(string.Join(" ", alphabet));
 
             // Display numbers
             Console.WriteLine("\nNumbers (1-100):");
