@@ -25,7 +25,7 @@ class Program
         }
 
      
-        Console.WriteLine("Numbers from 1 to 100 in random order:");
+        Console.WriteLine("Numbers from 1 to 10 in random order:");
         foreach (int numb in numbers)
         {
             Console.Write(numb + " ");
